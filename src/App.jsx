@@ -27,7 +27,7 @@ function App() {
   return(
     <div className='bg-black text-white overflow-auto h-screen p-4'>
       <h1 className='text-center font-bold border-b-2 border-pink-500'>Photos</h1>
-      <div className='flex flex-wrap gap-4 p-5'>{printUserData}</div>
+      <div className='flex flex-wrap justify-center gap-4 p-2'>{printUserData}</div>
       <div className='flex justify-center items-center gap-4 p-4'>
         <button style={{opacity: index==1 ? 0.5:1}}
         onClick={()=>{
