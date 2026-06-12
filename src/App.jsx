@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [index,setIndex]=useState(1);
-  const {userData,loading,error}=useFetch(`https://picsum.photos/v2/list?page=${index}&limit=20`);
+  const {userData,loading,error}=useFetch(`https://picsum.photos/v2/list?page=${index}&limit=50`);
 
   let printUserData=null
   if(loading){
